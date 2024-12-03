@@ -1,10 +1,10 @@
 {
-	"name": "pipeline2",
+	"name": "pipeline3",
 	"properties": {
 		"activities": [
 			{
-				"name": "Set variable1",
-				"description": "test2",
+				"name": "test",
+				"description": "xzz",
 				"type": "SetVariable",
 				"dependsOn": [],
 				"policy": {
@@ -13,16 +13,13 @@
 				},
 				"userProperties": [],
 				"typeProperties": {
-					"variableName": "nzdncjs",
-					"value": "xvxvx"
+					"variableName": "xzxasc",
+					"value": "111442"
 				}
 			}
 		],
 		"variables": {
-			"nzdncjs": {
-				"type": "String"
-			},
-			"dddsdssz": {
+			"xzxasc": {
 				"type": "String"
 			}
 		},
