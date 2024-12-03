@@ -1,0 +1,9 @@
+{
+	"name": "adf-eh-upskilling-dominikk",
+	"location": "northeurope",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "03945377-adbe-4d2b-9f81-ec571b61b239",
+		"tenantId": "7b4a3de9-7eb5-4f76-8b94-610e737564b9"
+	}
+}
