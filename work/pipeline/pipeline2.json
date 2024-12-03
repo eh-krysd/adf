@@ -4,6 +4,7 @@
 		"activities": [
 			{
 				"name": "Set variable1",
+				"description": "xvxv",
 				"type": "SetVariable",
 				"dependsOn": [],
 				"policy": {
@@ -13,7 +14,7 @@
 				"userProperties": [],
 				"typeProperties": {
 					"variableName": "nzdncjs",
-					"value": ""
+					"value": "xvxvx"
 				}
 			}
 		],
