@@ -11,9 +11,18 @@
 					"secureOutput": false,
 					"secureInput": false
 				},
-				"userProperties": []
+				"userProperties": [],
+				"typeProperties": {
+					"variableName": "xzxasc",
+					"value": "111442"
+				}
 			}
 		],
+		"variables": {
+			"xzxasc": {
+				"type": "String"
+			}
+		},
 		"annotations": []
 	}
 }
