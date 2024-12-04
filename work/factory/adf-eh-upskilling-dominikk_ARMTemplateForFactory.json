@@ -1,0 +1,37 @@
+{
+    "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "factoryName": {
+            "type": "string",
+            "metadata": "Data Factory name",
+            "defaultValue": "adf-eh-upskilling-dominikk"
+        },
+        "dataFactory_location": {
+            "type": "string",
+            "defaultValue": "northeurope"
+        },
+        "dataFactory_identity_type": {
+            "type": "string",
+            "defaultValue": "SystemAssigned"
+        }
+    },
+    "variables": {
+        "factoryId": "[concat('Microsoft.DataFactory/factories/', parameters('factoryName'))]"
+    },
+    "resources": [
+        {
+            "name": "[parameters('factoryName')]",
+            "type": "Microsoft.DataFactory/factories",
+            "apiVersion": "2018-06-01",
+            "properties": {},
+            "dependsOn": [],
+            "location": "[parameters('dataFactory_location')]",
+            "identity": {
+                "type": "[parameters('dataFactory_identity_type')]",
+                "principalId": "03945377-adbe-4d2b-9f81-ec571b61b239",
+                "tenantId": "7b4a3de9-7eb5-4f76-8b94-610e737564b9"
+            }
+        }
+    ]
+}
