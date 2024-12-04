@@ -13,7 +13,7 @@
 
 
       - name: Login via Az module
-        uses: azure/dominik.k@candfsandbox.onmicrosoft.com
+        uses: azure/login@v1
         with:
           client-id: ${{ secrets.AZURE_CLIENT_ID }}
           tenant-id: ${{ secrets.AZURE_TENANT_ID }}
