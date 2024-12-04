@@ -1,11 +1,6 @@
   on: push
   
-  release:
-    needs: build
-    runs-on: ubuntu-latest
-    steps:
- 
-   jobs:
+  jobs:
     build:
       runs-on: ubuntu-latest
       steps:   
