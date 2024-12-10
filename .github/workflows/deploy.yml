@@ -1,3 +1,7 @@
+  on:
+  pull:
+    branches:
+    - main
   release:
     needs: build
     runs-on: ubuntu-latest
