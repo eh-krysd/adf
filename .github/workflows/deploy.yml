@@ -4,7 +4,8 @@ on:
     - main
  
 jobs:
-  on-success:
+  release:
+    needs: build
     runs-on: ubuntu-latest
     steps:
  # we 1st download the previously uploaded artifact so we can leverage it later in the release job     
