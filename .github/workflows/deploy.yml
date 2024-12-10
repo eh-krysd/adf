@@ -1,8 +1,7 @@
 name: Release
 on:
   workflow_run:
-    workflows: ["upload"]
-    branches: [main]
+    workflows: .github/workflows/upload.yml
     types: 
       - completed
 jobs:
