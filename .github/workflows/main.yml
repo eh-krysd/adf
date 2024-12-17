@@ -62,7 +62,7 @@ jobs:
           enable-AzPSSession: true 
 
       - name: data-factory-deploy
-        uses: Azure/data-factory-deploy-action@v1.2.0
+        uses: Azure/data-factory-deploy-action@v4
         with:
           resourceGroupName: rg-eh-upskilling-eh-dominik.k # (6) your target ADF resource group name
           dataFactoryName: adf-eh-upskilling-dominikk # (7) your target ADF name
